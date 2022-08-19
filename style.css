@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#container{
+    width: 300px;
+    margin: 15px auto;
+    display: flexbox;
+    
+ }
+ body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }
+ .nameUser{
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+ .insta{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+    
+ }
+a{
+    color: rgb(66, 12, 214);
+}
+  #imageUser{
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+ 
+  }
+  #imageUser :hover{
+    padding: 0;
+    
+  }
+ /* Imagens das Redes Sociais */
+.fotoGit, .fotoFace, .fotoLinke, .fotoRocket, .fotoWpp{
+    width: 30px;
+    margin-right: 5px;    
+}
+.fotoGit{
+    margin-right: 10px;
+}
+
+/* Nomes centralizados */
+
+.gitNome, .FaceNome, .linkeNome, .rocketNome, .wppNome{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+}
+.wppNome, .rocketNome, .FaceNome{
+    color:black;
+}
+/* Centralização do Content */
+
+.git{
+    z-index: 10;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(10,10,10,1) 0%, rgba(10,10,10,1) 43%, rgba(77,77,77,1) 55%, rgba(10,10,10,1) 67%, rgba(10,10,10,1) 100%);
+    transition: 10s;
+}
+.face{
+    z-index: 10;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display:flex;
+    position:relative;
+    justify-content: center;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(2,56,255,1) 0%, rgba(255,255,255,1) 28%, rgba(255,255,255,1) 40%, rgba(65,148,255,1) 52%, rgba(0,55,255,1) 100%);
+ }
+ .linkedin{
+    z-index: 10;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(0,72,152,1) 0%, rgba(82,148,159,1) 62%, rgba(238,238,238,1) 100%);
+ }
+ .Rocket{
+    z-index: 10;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(75,0,156,1) 0%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 41%, rgba(139,76,255,1) 59%, rgba(75,0,156,1) 100%);
+ }
+ .wpp{
+    z-index: 10;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(0,107,34,1) 0%, rgba(255,255,255,1) 28%, rgba(255,255,255,1) 41%, rgba(66,196,130,1) 46%, rgba(0,125,39,1) 100%);
+ }
+ 
+ /* Footer / Rodapé */
+
+footer{
+
+    width: 200px;
+    margin: 2em auto 5px;
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+footer span{
+    font-family: 'Source Code Pro', monospace;
+}
